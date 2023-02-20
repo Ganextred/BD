@@ -1,0 +1,9 @@
+# ninja log v5
+13	453	6981582116144590	build.ninja	293a9ad97de27ed8
+18	679	6981122219383391	CMakeFiles/BD.dir/BaseEntity.cpp.obj	c280b369e8fb4471
+463	569	6981285979791850	BD.exe	2c1a25faf262cfc1
+3	463	6981285978771612	CMakeFiles/BD.dir/main.cpp.obj	c587d0f408777404
+3	451	6981252766239465	CMakeFiles/BD.dir/Apartment.cpp.obj	b1cfcd9ba720eb1c
+3	383	6981281739869978	CMakeFiles/BD.dir/ApartmentStatus.cpp.obj	1bd42ed9c7c126f1
+3	624	6981583172794071	CMakeFiles/BD.dir/main.cpp.obj	c587d0f408777404
+624	983	6981583176374900	BD.exe	2c1a25faf262cfc1
