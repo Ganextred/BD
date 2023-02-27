@@ -9,16 +9,6 @@ class BD {
 
 public:
     static int main() {
-//        ApartmentStatus status;
-//        status.arrival_day = std::chrono::system_clock::now();
-//        status.end_day = status.arrival_day + std::chrono::hours(24);
-//        status.pay_time_limit = status.arrival_day + std::chrono::hours(12);
-//        status.id = 0;
-//        status.apartment_id = 2;
-//        status.user_id = 3;
-//
-//        // Serialize to a file
-//        status.serialize(0);
 
         std::ofstream outfile("ApartmentStoreFile", std::ios::binary);
         outfile.clear();
@@ -26,12 +16,6 @@ public:
         std::ofstream outfile2("ApartmentStatusStoreFile", std::ios::binary);
         outfile2.clear();
         outfile2.close();
-
-        // Deserialize from a file
-        //std::ifstream infile("file", std::ios::app);
-//        ApartmentStatus deserialized_status = ApartmentStatus::deserialize(1);
-        //infile.close();
-//        cout << deserialized_status.toString();
 
         for(int i = 0; i<5; i++){
             Apartment a;
