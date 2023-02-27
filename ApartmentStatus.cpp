@@ -13,7 +13,6 @@ void ApartmentStatus::serialize(int i) {
     stream.write(reinterpret_cast<const char*>(&apartment_id), 4);
     stream.write(reinterpret_cast<const char*>(&user_id), 4);
     stream.write(reinterpret_cast<const char*>(&user_id), 4);
-    cout<<stream.tellp()<<" test ";
 
     stream.close();
 }
